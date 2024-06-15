@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JC's Etch-a-Sketch Page</title>
+        <link rel='stylesheet' href='style.css'/>
+
+
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="title"><h1><span>ETCH-A-SKETCH</span></h1></div>
+            <div>
+                <button id="popup" class="btn-input" onclick="getNumSquares">Input number of grid squares</button>
+            </div>
+            <p id="message"></p>
+            <p id="draw"></p>
+    
+                <div>
+                <div class="buttons">
+                    <button class="btn-black" onclick="setColor('black')">black</button>
+                    <button class="btn-red" onclick="setColor('red')">red</button>
+                    <button class="btn-blue" onclick="setColor('blue')">blue</button>
+                    <button class="btn-eraser" onclick="setColor('white')">eraser</button>
+                    <button class="btn-random" onclick="setColor('random')">random</button>
+                    <button class="btn-reset" onclick="resetBoard()">clear</button>
+                </div>
+
+                </div>
+                <div class="board"></div>
+        </div>
+        <div class="footer">
+            <p id="footer-text">
+                <p><span>2024 JCuzzy1 for <a href="https://www.theodineproject.com" target="_blank">The Odin Project</a></p>
+            </p>
+
+
+        </div>
+        
+
+
+
+        <script src="script.js" charset="utf-8"></script>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
