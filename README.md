@@ -88,5 +88,7 @@ It works!
 
 Next step is to style the page...
 
+Styled page using flexbox and other css methods. Added a gap between the grid squares. Wanted to apply a different colour to the grid lines other than white but doesn'tappear possible with the css grid method. Coloured the buttons, changed font and sizes throughout.
+
 
 
